@@ -1,0 +1,125 @@
+body { 
+	margin:0px; 
+	padding:20px 0px; 
+	text-align:center; 
+	font-family:"Lucida Calligraphy","Times New Roman",serif,cursive,arial; 
+	font-size:medium;
+	color:#000000;
+	background-color:#410115; 
+}
+
+.post { 
+	margin:0px 0px 30px 0px;
+	padding:0px 0px 30px 0px;
+	border-bottom:1px dotted #C8C8C8;
+}
+
+.postbox{
+	margin:0px 0px 50px 0px;
+}
+
+.meta { margin:10px; padding:15px; background:#EAEAEA; clear:both; }
+
+#footer {
+	text-align:center; 
+	clear:both;
+	color:#FFFFFF;
+	margin:30px 0px 0px 0px; 
+	padding:30px 0px 0px 0px; 
+	border-top:1px
+	dotted #C8C8C8;
+}
+
+#wrap { 
+	margin:0px auto;
+	text-align:left;
+	font-size: 16px;
+	line-height: 1.4;
+	width:1000px; 
+        background-image:url(/images/content_bg_longsvg.svg);
+        background-repeat:no-repeat;
+        background-position:top;
+	background-size: auto;
+
+}
+
+#header {
+        margin:0px auto;
+        text-align:left;
+        font-size: 13px;
+        line-height: 1.4;
+        width:1000px;
+	height:450px;
+/*	background-color:#f7c84a; */
+}
+
+#container { 
+	float:right;
+	
+	text-align:center;
+	margin-left:auto;
+	margin-right:75px;
+
+	width:80%;
+	min-height:1500px;
+/*	background-image:url(/images/content_bg.png); 
+	background-repeat:no-repeat;
+	background-position:top; */
+	padding-top:50px;
+	padding-right:25px; 
+}
+
+#menubar { 
+	
+	margin-left:70px;
+	margin-right:auto;
+
+	text-align:center;
+	width:90%; 
+	height:auto;
+	padding:0px 15px 0px 0px;
+
+/*	background-image:url(/images/menu_bg.jpg); */
+/*	background-color:#fff9ad; */
+	background-repeat:no-repeat;
+}
+
+#sidebar li { list-style-type:none; }
+
+#sidebar > li { margin:20px 0px; }
+
+#sidebar h1 {  }
+
+#sidebar .description { display:block; width:100%; height:auto; margin:0px 0px 10px 0px; }
+
+h1 {
+	margin-bottom:0.5cm;
+	color:#000000;
+}
+
+h2, h3, h4, h5, h6, h7 { 
+	margin:0px;
+	margin-top:0.5cm;
+	margin-bottom:0.3cm;
+}
+
+h4, h5, h6 { font-size:14px; }
+
+a {
+	color: rgb(0,0,50);
+}
+
+
+#blog-title { margin-top: 0; line-height:48px;}
+
+.literal-block {padding: .5em;}
+
+div.sidebar, div.admonition, div.attention, div.caution, div.danger, div.error, div.hint, div.important, div.note, div.tip, div.warning {
+    /* Issue 277 */
+    border: 100px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+}
+ul.breadcrumb > li:before {
+    content: " / ";
+}
