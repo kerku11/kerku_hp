@@ -36,7 +36,7 @@ body {
 	font-size: 16px;
 	line-height: 1.4;
 	width:1000px; 
-        background-image:url(./images/content_bg_longsvg.svg);
+        background-image:url(../../images/content_bg_longsvg.svg);
         background-repeat:no-repeat;
         background-position:top;
 	background-size: auto;
@@ -62,7 +62,7 @@ body {
 
 	width:80%;
 	min-height:1500px;
-/*	background-image:url(./images/content_bg.png); 
+/*	background-image:url(../../images/content_bg.png); 
 	background-repeat:no-repeat;
 	background-position:top; */
 	padding-top:50px;
@@ -79,7 +79,7 @@ body {
 	height:auto;
 	padding:0px 15px 0px 0px;
 
-/*	background-image:url(/images/menu_bg.jpg); */
+/*	background-image:url(../../images/menu_bg.jpg); */
 /*	background-color:#fff9ad; */
 	background-repeat:no-repeat;
 }
