@@ -5,7 +5,7 @@ body {
 	font-family:"Lucida Calligraphy","Times New Roman",serif,cursive,arial; 
 	font-size:medium;
 	color:#000000;
-	background-color:#410115; 
+	background-color:#e8b200; 
 }
 
 .post { 
@@ -40,6 +40,7 @@ body {
         background-repeat:no-repeat;
         background-position:top;
 	background-size: auto;
+	
 
 }
 
