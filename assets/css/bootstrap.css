@@ -5541,8 +5541,8 @@ input[type="submit"].btn.btn-mini {
 
 .thumbnails > li {
   float: left;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
 .thumbnail {
