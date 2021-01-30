@@ -21,6 +21,7 @@
 <style type="text/css">
     .image-block {
         display: inline-block;
+        margin-bottom:20px;
     }
     .flowr_row {
         width: 100%;
@@ -86,7 +87,8 @@
 	    </table>
             
         </div>
-        <div id="container">    
+        <div id="container">   
+        <h1>Weihnachtsmarkt</h1> 
             
     
     <ul>
@@ -123,8 +125,8 @@
 jsonContent = [{"url": "../../../galleries/Anderes/Weihnachtsmarkt/00-WA.png", "title": "Galleries/anderes/weihnachtsmarkt/00 wa", "size": {"h": 121, "w": 180}, "url_thumb": "00-WA.thumbnail.png"}, {"url": "../../../galleries/Anderes/Weihnachtsmarkt/01-WA.png", "title": "Galleries/anderes/weihnachtsmarkt/01 wa", "size": {"h": 120, "w": 180}, "url_thumb": "01-WA.thumbnail.png"}, {"url": "../../../galleries/Anderes/Weihnachtsmarkt/02-WA.png", "title": "Galleries/anderes/weihnachtsmarkt/02 wa", "size": {"h": 120, "w": 180}, "url_thumb": "02-WA.thumbnail.png"}];
 $("#gallery_container").flowr({
         data : jsonContent,
-        height : 180*.6,
-        padding: 5,
+        height : 240*.6,
+        padding: 20,
         rows: -1,
         render : function(params) {
             // Just return a div, string or a dom object, anything works fine
