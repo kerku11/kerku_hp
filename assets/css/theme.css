@@ -2,7 +2,7 @@ body {
 	margin:0px; 
 	padding:20px 0px; 
 	text-align:center; 
-	font-family:"Lucida Calligraphy","Times New Roman",serif,cursive,arial; 
+	font-family:"Arial",serif,cursive,arial; 
 	font-size:medium;
 	color:#000000;
 	background-color:#410115; 
@@ -95,12 +95,14 @@ body {
 h1 {
 	margin-bottom:0.5cm;
 	color:#000000;
+	font-family:"Times New Roman"
 }
 
 h2, h3, h4, h5, h6, h7 { 
 	margin:0px;
 	margin-top:0.5cm;
 	margin-bottom:0.3cm;
+	font-family: "Times New Roman"
 }
 
 h4, h5, h6 { font-size:14px; }
